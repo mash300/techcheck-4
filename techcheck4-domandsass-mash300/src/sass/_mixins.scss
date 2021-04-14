@@ -1,0 +1,12 @@
+@mixin commonElements($width, $height, $anotherColour, $whosPointing) {
+    width: $width;
+    height: $height;
+    background: $anotherColour;
+    cursor: $whosPointing;
+}
+
+@mixin betterFont($size, $family) {
+    font-size: $size;
+    // font-family: 'Source Code Pro', monospace;
+    font-family: $family
+}
